@@ -1,10 +1,12 @@
-
+import * as C from './App.styles';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+    <C.Container>
+      <C.Area>
+        <C.Header>Lista de Tarefas</C.Header>
+      </C.Area>
+    </C.Container>
   );
 }
 
